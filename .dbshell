@@ -1,0 +1,53 @@
+show dbs
+show dbs
+use escuela
+show dbs
+switched to db escuela
+use escuela
+show dbs
+show dbs
+use escuela
+db.asignaturas.insertOne( {      _id: Number,      titulo: String,      creditos: Number      })
+db.asignatura.findOne()
+db.asignaturas.findOne()
+show dbs
+db.asignaturas.insertMany([{      _id: 0,      titulo: "Matemáticas",      creditos: 200      },  {      _id: 2,      titulo: "Historia",      creditos: 200      }, {      _id: 3,      titulo: "Naturales",      creditos: 200      }, {      _id: 4,      titulo: "Sociales",      creditos: 200      }])
+show collections
+db.asignaturas.find().pretty()
+db.profesores.insertMany([{ _id:0, nombre: "Pepe Sanchez", email: "pepe@sanchez.com", fecha_alta: "2000-20-12", activo: true }, {_id:1, nombre: "Antonio Santos", email: "antonio@santos.com", fecha_alta: "2000-20-12", activo: true}, {_id:2, nombre: "Luis García", email: "luis@garcia.com", fecha_alta: "2000-20-12", activo: true}])
+db.profesores.find().pretty()
+db.alumnos.insertMany([ {_id:0,nombre:"Pepe Sanchez",fecha_nacimiento:"2000-20-12",telefono:"9199199991",email:"pepe@sanchez.com",direccion: {calle:"Calle del uno",numero: 1,ciudad:"Móstoles",cp:"28888"}}, {_id:1,nombre:"María Jiménez",fecha_nacimiento:"2000-20-12",telefono:"9199199991",email:"pepe@sanchez.com",direccion: {calle:"Calle del uno",numero: 2,ciudad:"Móstoles",cp:"28888"}}, {_id:2,nombre:"Concha López",fecha_nacimiento:"2000-20-12",telefono:"9199199991",email:"pepe@sanchez.com",direccion: {calle:"Calle del uno",numero: 3,ciudad: "Móstoles",cp:"28888"}}, {_id:3,nombre:"Ángel Melias",fecha_nacimiento:"2000-20-12",telefono:"9199199991",email:"pepe@sanchez.com",direccion: {calle:"Calle del uno",numero: 4,ciudad: "Móstoles",cp:"28888"}}])
+db.alumnos.find().pretty()
+show collections
+db.asignaturas.updateOne({_id: 3},{$set:{titulo:"C. Sociales"}} )
+db.asignaturas.find().pretty()
+db.alumnos.updateOne({_id:3},{$set:{nombre: "Ángel Muñoz"}{direccion:{cp:"28999"}}})
+db.alumnos.updateOne({_id:3},{$set:{nombre: "Ángel Muñoz"}})
+db.alumnos.updateOne({_id:3},{$set:{direccion:{cp:"28999"}})  )
+db.alumnos.updateOne({_id:3},{$set:{direccion:{cp:"28999"}})  ]
+db.alumnos.updateOne({_id:3},{$set:{direccion:{cp:"28999"}}) }
+db.alumnos.updateOne({_id:3},{$set:{direccion:{cp:"28999"}}})
+db.alumnos.find().pretty()
+db.profesores.deleteOne({_id:2})
+db.profesores.find().pretty()
+db.alumnos.find({cp:"28999"})
+db.alumnos.find({direccion:{cp:"28999"}})
+db.profesores.find({email:{$ne:["antonio@santos.com"]}})
+db.profesores.find({email:{$ne:"antonio@santos.com"}})
+mongoexport --db escuela --collection alumnos profesores asignaturas
+mongodump -d escuela
+mongodump -d <escuela>  mongodump -d escuela
+mongoexport --host localhost --db escuela --collection alumnos profesores asignaturas --csv --out text.csv --fields Marianna Maldonado
+mongoexport --host localhost --db escuela --collection alumnos profesores asignaturas --csv --out text.csv --fields
+mongoexport --host localhost --db escuela --collection alumnos profesores asignaturas --csv --out text.csv
+use dbs
+show dbs
+use proyectoApi
+show dbs
+show collections
+use proyectoApi
+show collections
+db.proyectoApi.find()
+show dbs
+show collections
+show collection

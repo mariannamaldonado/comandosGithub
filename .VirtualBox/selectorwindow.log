@@ -1,0 +1,29 @@
+00:00:00.825354 VirtualBox GUI VM Selector Window 6.1.16 r140961 win.amd64 (Oct 16 2020 16:33:17) release log
+00:00:00.825356 Log opened 2020-11-01T09:10:09.646459000Z
+00:00:00.825356 Build Type: release
+00:00:00.825359 OS Product: Windows 10
+00:00:00.825361 OS Release: 10.0.19041
+00:00:00.825361 OS Service Pack: 
+00:00:00.840840 DMI Product Name: Vostro 3580
+00:00:00.845575 DMI Product Version: 
+00:00:00.845608 Firmware type: UEFI
+00:00:00.845956 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.845980 Host RAM: 16260MB (15.8GB) total, 12403MB (12.1GB) available
+00:00:00.845985 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.845986 Process ID: 5420
+00:00:00.845986 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.846105 Qt version: 5.6.2
+00:00:00.882299 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:03.097843 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:36.597424 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:56.456690 GUI: UIMediumEnumerator: Medium with key={{15411836-ac18-418d-89a3-aef6d502c853}} created
+00:05:56.627027 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:11.722993 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:18.437988 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:18.583032 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:19.178185 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:19.188228 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:56.555357 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:41.757202 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:42.343585 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:09:31.984001 GUI: UIMediumEnumerator: Medium-enumeration finished!

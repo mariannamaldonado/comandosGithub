@@ -1,0 +1,82 @@
+00:00:00.005135 main     VirtualBox COM Server 6.1.16 r140961 win.amd64 (Oct 16 2020 16:33:17) release log
+00:00:00.005140 main     Log opened 2020-11-01T09:10:09.064336100Z
+00:00:00.005141 main     Build Type: release
+00:00:00.005146 main     OS Product: Windows 10
+00:00:00.005147 main     OS Release: 10.0.19041
+00:00:00.005148 main     OS Service Pack: 
+00:00:00.047307 main     DMI Product Name: Vostro 3580
+00:00:00.072400 main     DMI Product Version: 
+00:00:00.072444 main     Firmware type: UEFI
+00:00:00.073060 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.073906 main     Host RAM: 16260MB (15.8GB) total, 12423MB (12.1GB) available
+00:00:00.073928 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.073930 main     Process ID: 2284
+00:00:00.073931 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.170614          VirtualBox: object creation starts
+00:00:00.175751          Home directory: 'C:\Users\tecnologico\.VirtualBox'
+00:00:00.176060          Installed Drivers:
+00:00:00.182337            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.16.40961)
+00:00:00.185288            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.16.40961)
+00:00:00.186461            C:\Windows\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.16.40961)
+00:00:00.187765            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.16.40961)
+00:00:00.219390          Loading settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.230957          usbLibGetDevices: Starting USB device enumeration
+00:00:00.240387          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&11d014a8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.240538          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&11d014a8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.244820          usbLibGetDevices: Found 5 USB devices, 0 captured
+00:00:00.245037          USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0x5520)
+00:00:00.245083          USB: Unknown USB device detected (idVendor: 0x0cf3, idProduct: 0xe009)
+00:00:00.422465          HostDnsMonitor: initializing
+00:00:00.435035          HostDnsMonitor: updating information
+00:00:00.435061          HostDnsMonitor: old information
+00:00:00.435062            no server entries
+00:00:00.435063            no domain set
+00:00:00.435063            no search string entries
+00:00:00.435064          HostDnsMonitor: new information
+00:00:00.435064            server 1: 192.168.1.1
+00:00:00.435065            domain: home
+00:00:00.435066            no search string entries
+00:00:00.505429          VD: VDInit finished with VINF_SUCCESS
+00:00:00.536596          Loading settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:00:00.551493          VirtualBox: object created
+00:00:13.421627          Launched VM: 63095712 pid: 7740 (0x1e3c) frontend: GUI/Qt name: linux
+00:00:19.370551          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:22.387421          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:01:36.330936          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:01:36.382569          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:01:54.459991          Saving settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:00.489433          Saving settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:04:51.416493          Saving settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:05:55.689414 createBase Saving settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:05:56.245510          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:05:56.263736          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:05:56.279517          Saving settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:05:56.299596          Saving settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:05:56.321018          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:06:01.753188          Launched VM: 63104576 pid: 7712 (0x1e20) frontend: GUI/Qt name: linux
+00:06:06.566312          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:06:07.152030          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:06:11.452767          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:07:18.164618          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:07:18.285807          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:07:18.309092 SaveState Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:07:18.861292          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:07:18.924500          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:07:56.274522          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:08:19.464937          Launched VM: 63098064 pid: 10052 (0x2744) frontend: GUI/Qt name: linux
+00:08:24.025170          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:08:26.399028          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:08:41.465267          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:08:41.486731 SaveState Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:08:42.034148          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:09:04.294125          Loading settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:09:04.294434          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Trying to open a VM config 'C:/Users/tecnologico/VirtualBox VMs/linux/linux.vbox' which has the same UUID as an existing virtual machine}, preserve=false aResultDetail=0
+00:09:08.610249          Launched VM: 63386144 pid: 9156 (0x23c4) frontend: GUI/Qt name: linux
+00:09:13.400317          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:09:16.342221          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:09:31.691868          Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:09:31.714848 SaveState Saving settings file "C:\Users\tecnologico\VirtualBox VMs\linux\linux.vbox" with version "1.16-windows"
+00:09:33.732445          Saving settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:09:33.756931          Saving settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:09:33.772972          Saving settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:09:33.790946          Saving settings file "C:\Users\tecnologico\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
